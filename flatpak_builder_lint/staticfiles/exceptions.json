@@ -39,11 +39,6 @@
             "finish-args-unnecessary-xdg-data-flatpak-ro-access": "the app predates this linter rule"
         }
     },
-    "app.drey.Warp": {
-        "*": {
-            "finish-args-login1-system-talk-name": "Predates the linter rule"
-        }
-    },
     "app.freelens.Freelens": {
         "*": {
             "finish-args-flatpak-spawn-access": "required for host shell access via internal terminal",
@@ -191,7 +186,6 @@
     },
     "ca.desrt.dconf-editor": {
         "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
             "finish-args-dconf-talk-name": "Predates the linter rule",
             "finish-args-direct-dconf-path": "Predates the linter rule",
             "finish-args-flatpak-spawn-access": "the app predates this linter rule",
@@ -2617,7 +2611,6 @@
     },
     "com.tutanota.Tutanota": {
         "stable": {
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule",
             "finish-args-host-ro-filesystem-access": "Predates the linter rule"
         }
     },
@@ -3224,11 +3217,6 @@
             "finish-args-flatpak-spawn-access": "the app predates this linter rule"
         }
     },
-    "eu.ad5001.LogarithmPlotter": {
-        "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
-        }
-    },
     "eu.betterbird.Betterbird": {
         "*": {
             "finish-args-gnupg-filesystem-access": "Predates the linter rule",
@@ -3821,11 +3809,6 @@
             "finish-args-unnecessary-xdg-config-cosmic-ro-access": "Required to read the system theme and listen for config changes in the host"
         }
     },
-    "io.github.cosmic_utils.camera": {
-        "stable": {
-            "finish-args-unnecessary-xdg-config-cosmic-rw-access": "Required to read the system theme and write app configuration files"
-        }
-    },
     "io.github.ctlcltd.e2se": {
         "stable": {
             "finish-args-host-filesystem-access": "Predates the linter rule"
@@ -3894,7 +3877,6 @@
     },
     "io.github.dyegoaurelio.simple-wireplumber-gui": {
         "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
             "finish-args-unnecessary-xdg-config-wireplumber-create-access": "this program creates config files in xdg-config/wireplumber"
         }
     },
@@ -3968,11 +3950,6 @@
         "stable": {
             "finish-args-desktopfile-filesystem-access": "Predates the linter rule",
             "finish-args-flatpak-appdata-folder-access": "Predates the linter rule"
-        }
-    },
-    "io.github.fizzyizzy05.binary": {
-        "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
         }
     },
     "io.github.flattool.Ignition": {
@@ -5277,11 +5254,6 @@
             "finish-args-unnecessary-xdg-data-gnome-background-properties-create-access": "https://github.com/dusansimic/dynamic-wallpaper/issues/5"
         }
     },
-    "me.iepure.devtoolbox": {
-        "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
-        }
-    },
     "me.kozec.syncthingtk": {
         "*": {
             "finish-args-host-filesystem-access": "Predates the linter rule"
@@ -5724,11 +5696,6 @@
     "net.sourceforge.wavbreaker": {
         "stable": {
             "finish-args-home-filesystem-access": "Predates the linter rule"
-        }
-    },
-    "net.unvanquished.Unvanquished": {
-        "stable": {
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule"
         }
     },
     "net.waterfox.waterfox": {
@@ -6701,11 +6668,6 @@
         }
     },
     "org.gnome.SoundRecorder": {
-        "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
-        }
-    },
-    "org.gnome.SwellFoop": {
         "stable": {
             "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
         }
@@ -7959,7 +7921,6 @@
     },
     "org.musicbrainz.Picard": {
         "stable": {
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule",
             "finish-args-home-filesystem-access": "Predates the linter rule",
             "finish-args-host-tmp-access": "Predates the linter rule"
         }
