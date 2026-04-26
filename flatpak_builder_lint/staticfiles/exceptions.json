@@ -9,11 +9,6 @@
             "finish-args-home-filesystem-access": "Predates the linter rule"
         }
     },
-    "app.bluebubbles.BlueBubbles": {
-        "*": {
-            "finish-args-home-filesystem-access": "Predates the linter rule"
-        }
-    },
     "app.devsuite.Manuals": {
         "stable": {
             "finish-args-flatpak-spawn-access": "application uses libflatpak to install SDK documentation",
@@ -37,11 +32,6 @@
             "finish-args-flatpak-appdata-folder-access": "Predates the linter rule",
             "finish-args-host-var-access": "Predates the linter rule",
             "finish-args-unnecessary-xdg-data-flatpak-ro-access": "the app predates this linter rule"
-        }
-    },
-    "app.drey.Warp": {
-        "*": {
-            "finish-args-login1-system-talk-name": "Predates the linter rule"
         }
     },
     "app.freelens.Freelens": {
@@ -191,16 +181,10 @@
     },
     "ca.desrt.dconf-editor": {
         "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
             "finish-args-dconf-talk-name": "Predates the linter rule",
             "finish-args-direct-dconf-path": "Predates the linter rule",
             "finish-args-flatpak-spawn-access": "the app predates this linter rule",
             "finish-args-host-ro-filesystem-access": "Predates the linter rule"
-        }
-    },
-    "ca.edestcroix.Recordbox": {
-        "*": {
-            "finish-args-home-filesystem-access": "Predates the linter rule"
         }
     },
     "ca.littlesvr.asunder": {
@@ -744,7 +728,6 @@
     "com.github.Bleuzen.FFaudioConverter": {
         "stable": {
             "appid-uses-code-hosting-domain": "app-id predates this linter rule",
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule",
             "finish-args-host-filesystem-access": "Predates the linter rule"
         }
     },
@@ -2078,11 +2061,6 @@
             "finish-args-host-filesystem-access": "Predates the linter rule"
         }
     },
-    "com.ktechpit.orion": {
-        "stable": {
-            "finish-args-host-tmp-access": "Predates the linter rule"
-        }
-    },
     "com.lablicate.OpenChrom": {
         "stable": {
             "finish-args-host-tmp-access": "Predates the linter rule"
@@ -2132,11 +2110,6 @@
         "*": {
             "finish-args-contains-both-x11-and-wayland": "Predates the linter rule",
             "finish-args-home-filesystem-access": "Predates the linter rule"
-        }
-    },
-    "com.mattjakeman.ExtensionManager": {
-        "*": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
         }
     },
     "com.microsoft.AzureStorageExplorer": {
@@ -2617,7 +2590,6 @@
     },
     "com.tutanota.Tutanota": {
         "stable": {
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule",
             "finish-args-host-ro-filesystem-access": "Predates the linter rule"
         }
     },
@@ -2956,7 +2928,6 @@
     },
     "de.schmidhuberj.tubefeeder": {
         "*": {
-            "finish-args-flatpak-spawn-access": "Spawn arbitrary video player",
             "finish-args-unnecessary-xdg-data-tubefeeder-create-access": "the app predates this linter rule"
         }
     },
@@ -3222,11 +3193,6 @@
     "es.estoes.wallpaperDownloader": {
         "stable": {
             "finish-args-flatpak-spawn-access": "the app predates this linter rule"
-        }
-    },
-    "eu.ad5001.LogarithmPlotter": {
-        "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
         }
     },
     "eu.betterbird.Betterbird": {
@@ -3683,11 +3649,6 @@
             "finish-args-home-filesystem-access": "Predates the linter rule"
         }
     },
-    "io.github.aerocyber.sitemarker": {
-        "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
-        }
-    },
     "io.github.aganzha.Stage": {
         "stable": {
             "finish-args-has-socket-gpg-agent": "Predates the linter rule",
@@ -3821,11 +3782,6 @@
             "finish-args-unnecessary-xdg-config-cosmic-ro-access": "Required to read the system theme and listen for config changes in the host"
         }
     },
-    "io.github.cosmic_utils.camera": {
-        "stable": {
-            "finish-args-unnecessary-xdg-config-cosmic-rw-access": "Required to read the system theme and write app configuration files"
-        }
-    },
     "io.github.ctlcltd.e2se": {
         "stable": {
             "finish-args-host-filesystem-access": "Predates the linter rule"
@@ -3861,11 +3817,6 @@
             "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
         }
     },
-    "io.github.diegoivan.pdf_metadata_editor": {
-        "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
-        }
-    },
     "io.github.diegopvlk.Dosage": {
         "stable": {
             "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
@@ -3894,7 +3845,6 @@
     },
     "io.github.dyegoaurelio.simple-wireplumber-gui": {
         "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
             "finish-args-unnecessary-xdg-config-wireplumber-create-access": "this program creates config files in xdg-config/wireplumber"
         }
     },
@@ -3968,11 +3918,6 @@
         "stable": {
             "finish-args-desktopfile-filesystem-access": "Predates the linter rule",
             "finish-args-flatpak-appdata-folder-access": "Predates the linter rule"
-        }
-    },
-    "io.github.fizzyizzy05.binary": {
-        "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
         }
     },
     "io.github.flattool.Ignition": {
@@ -4180,8 +4125,7 @@
             "finish-args-flatpak-spawn-access": "Runs host binaries in order to successfully install and launch apps",
             "finish-args-flatpak-system-folder-access": "Needs access to system-wide flatpak installation so that it can manage them",
             "finish-args-flatpak-system-talk-name": "Talks to the system-wide flatpak dbus address in order to query existence of flatpaks and send installation commands to it",
-            "finish-args-unnecessary-xdg-data-flatpak-rw-access": "Needs access to user-wide flatpak installation so it can manage them",
-            "finish-args-portal-impl-permissionstore-talk-name": "Needed to modify dynamic permissions"
+            "finish-args-unnecessary-xdg-data-flatpak-rw-access": "Needs access to user-wide flatpak installation so it can manage them"
         }
     },
     "io.github.kotatogram": {
@@ -4376,11 +4320,6 @@
             "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
         }
     },
-    "io.github.nate_xyz.Resonance": {
-        "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
-        }
-    },
     "io.github.nearinfinitybrowser.nearinfinity": {
         "stable": {
             "finish-args-host-filesystem-access": "Predates the linter rule",
@@ -4413,11 +4352,6 @@
         }
     },
     "io.github.nokse22.teleprompter": {
-        "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
-        }
-    },
-    "io.github.nokse22.ultimate-tic-tac-toe": {
         "stable": {
             "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
         }
@@ -5197,26 +5131,11 @@
             "finish-args-home-filesystem-access": "Predates the linter rule"
         }
     },
-    "it.mijorus.collector": {
-        "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
-        }
-    },
     "it.mijorus.gearlever": {
         "stable": {
             "finish-args-flatpak-spawn-access": "Required to launch AppImages that the user integrates into the system menu",
             "finish-args-host-filesystem-access": "Predates the linter rule",
             "finish-args-host-tmp-access": "Required to extract some large AppImages into the /tmp directory: the tmpfs under /run/user/1000 might be too small"
-        }
-    },
-    "it.mijorus.smile": {
-        "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
-        }
-    },
-    "it.mijorus.whisper": {
-        "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
         }
     },
     "it.mq1.TinyWiiBackupManager": {
@@ -5275,11 +5194,6 @@
         "stable": {
             "finish-args-unnecessary-xdg-data-backgrounds-create-access": "https://github.com/dusansimic/dynamic-wallpaper/issues/5",
             "finish-args-unnecessary-xdg-data-gnome-background-properties-create-access": "https://github.com/dusansimic/dynamic-wallpaper/issues/5"
-        }
-    },
-    "me.iepure.devtoolbox": {
-        "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
         }
     },
     "me.kozec.syncthingtk": {
@@ -5459,11 +5373,6 @@
         }
     },
     "net.launchpad.Gnuclad": {
-        "stable": {
-            "finish-args-home-filesystem-access": "Predates the linter rule"
-        }
-    },
-    "net.longturn.freeciv21": {
         "stable": {
             "finish-args-home-filesystem-access": "Predates the linter rule"
         }
@@ -5726,11 +5635,6 @@
             "finish-args-home-filesystem-access": "Predates the linter rule"
         }
     },
-    "net.unvanquished.Unvanquished": {
-        "stable": {
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule"
-        }
-    },
     "net.waterfox.waterfox": {
         "stable": {
             "finish-args-own-name-wildcard-org.mozilla.waterfox": "Predates the linter rule"
@@ -5886,11 +5790,6 @@
         }
     },
     "org.blender.Blender": {
-        "stable": {
-            "finish-args-host-filesystem-access": "Predates the linter rule"
-        }
-    },
-    "org.bluej.BlueJ": {
         "stable": {
             "finish-args-host-filesystem-access": "Predates the linter rule"
         }
@@ -6119,8 +6018,6 @@
     },
     "org.eclipse.iot.fourdiac.Ide": {
         "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
-            "finish-args-dconf-talk-name": "Predates the linter rule",
             "finish-args-direct-dconf-path": "Predates the linter rule",
             "finish-args-host-filesystem-access": "Predates the linter rule"
         }
@@ -6596,7 +6493,6 @@
     },
     "org.gnome.Keysign": {
         "*": {
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule",
             "finish-args-gnupg-filesystem-access": "Predates the linter rule"
         }
     },
@@ -6633,7 +6529,6 @@
     },
     "org.gnome.Notes": {
         "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
             "finish-args-host-ro-filesystem-access": "Predates the linter rule"
         }
     },
@@ -6701,11 +6596,6 @@
         }
     },
     "org.gnome.SoundRecorder": {
-        "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
-        }
-    },
-    "org.gnome.SwellFoop": {
         "stable": {
             "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
         }
@@ -7508,7 +7398,6 @@
     },
     "org.kde.krename": {
         "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
             "finish-args-host-filesystem-access": "Predates the linter rule"
         }
     },
@@ -7959,7 +7848,6 @@
     },
     "org.musicbrainz.Picard": {
         "stable": {
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule",
             "finish-args-home-filesystem-access": "Predates the linter rule",
             "finish-args-host-tmp-access": "Predates the linter rule"
         }
@@ -8694,7 +8582,6 @@
     },
     "page.codeberg.JakobDev.jdSimpleAutostart": {
         "stable": {
-            "finish-args-autostart-filesystem-access": "Predates the linter rule",
             "finish-args-flatpak-system-folder-access": "Predates the linter rule",
             "finish-args-host-etc-ro-filesystem-access": "Predates the linter rule",
             "finish-args-host-os-ro-filesystem-access": "Predates the linter rule",
@@ -8861,7 +8748,6 @@
     },
     "se.manyver.Manyverse": {
         "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
             "finish-args-home-ro-filesystem-access": "Predates the linter rule"
         }
     },
